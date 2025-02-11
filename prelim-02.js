@@ -17,5 +17,5 @@ function checkVotingEligibility(age, isCitizen) {
 console.log(checkVotingEligibility(20, true));  // Expected: "You are eligible to vote."
 console.log(checkVotingEligibility(16, true));  // Expected: "You are not old enough to vote."
 console.log(checkVotingEligibility(25, false)); // Expected: "You must be a citizen to vote."
-console.log(checkVotingEligibility(18, true));  // Expected: "You are eligible to vote."
+console.log(checkVotingEligibility(19, true));  // Expected: "You are eligible to vote."
 console.log(checkVotingEligibility(18, false)); // Expected: "You must be a citizen to vote."
